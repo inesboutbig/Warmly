@@ -1,0 +1,29 @@
+SITE WARMLY — PROTOTYPE
+=======================
+
+CONTENU
+- index.html : le site complet (une seule page, navigation par ancres : #boutique, #culotte, #faq…).
+- media/ : vos vidéos d'accueil, photos et logo.
+
+VOIR LE SITE SUR VOTRE ORDINATEUR
+Décompressez le dossier, puis ouvrez index.html dans Chrome, Safari ou Firefox.
+(Les polices Cormorant Garamond et DM Sans se chargent depuis Google Fonts : une connexion internet est nécessaire.)
+
+METTRE LE SITE EN LIGNE
+Déposez le contenu du dossier (index.html + media/) sur n'importe quel hébergement de fichiers statiques :
+Netlify (glisser-déposer sur app.netlify.com/drop), Vercel, GitHub Pages, OVH, o2switch…
+Gardez la même arborescence : index.html à la racine, les fichiers dans media/.
+
+À COMPLÉTER DANS index.html
+Cherchez « const CONFIG » dans le fichier :
+- product.price et priceVerified : votre prix confirmé (passez priceVerified à true pour retirer la mention « à confirmer »).
+- sizeChart : votre guide des tailles officiel (le barème actuel est provisoire).
+- reviews : vos avis clients vérifiés.
+- social : les liens Instagram, YouTube, TikTok, LinkedIn (les icônes s'affichent automatiquement).
+- shopify : domaine de la boutique, jeton Storefront et identifiants de variantes, pour activer le vrai paiement.
+
+IMPORTANT
+Il s'agit d'un prototype : le panier, les favoris, le compte et les formulaires fonctionnent sur l'appareil,
+mais rien n'est encaissé ni envoyé tant que Shopify et votre outil e-mail ne sont pas connectés.
+La liste complète des éléments à fournir se trouve sur la page « Prototype · éléments à fournir » (lien en bas du site).
+Pour warmly.fr en production, ce prototype peut servir de base à un thème Shopify ou à un site Next.js.
